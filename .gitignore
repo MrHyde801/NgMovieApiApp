@@ -40,3 +40,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+
+# my outline
+outline.txt
+
+#idea folders
+/screenshot-ideas

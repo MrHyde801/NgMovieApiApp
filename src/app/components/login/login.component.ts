@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormBuilder, FormGroup} from '@angular/forms';
+import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 
 
 @Component({
@@ -13,6 +14,8 @@ export class LoginComponent implements OnInit {
     email: [''],
     password: [''],
   })
+
+  faGoogle = faGoogle;
 
 
   constructor(private fb: FormBuilder) { 

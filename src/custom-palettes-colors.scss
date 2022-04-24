@@ -1,0 +1,71 @@
+$my-dark-background: #0E1117;
+$my-unc-gray: #767676;
+$my-unc-navy: #13294B;
+
+
+
+$my-navy-palette: (
+  50: #e6eaef,
+  100: #bfcad9,
+  200: #97a7bf,
+  300: #6f86a4,
+  400: #506c93,
+  500: #2e5484,
+  600: #274d7b,
+  700: #1f4370,
+  800: #193a63,
+  900: #13294b,
+  A100: #82B1FF,
+  A200: #448AFF,
+  A400: #2979FF,
+  A700: #2962FF,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: white,
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: rgba(black, 0.87),
+    A200: rgba(black, 0.87),
+    A400: white,
+    A700: white,
+  )
+);
+
+$my-carolina-palette: (
+  50: #e5f1f7,
+  100: #c0dbed,
+  200: #9bc5e1,
+  300: #7bafd4,
+  400: #659fcc,
+  500: #4b90ca,
+  600: #4283bd,
+  700: #3872ac,
+  800: #2d629c,
+  900: #184680,
+  A100: #7bafd4,
+  A200: #FFFFFF,
+  A400: #767676,
+  A700: #13294B,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: rgba(black, 0.87),
+    A200: rgba(black, 0.87),
+    A400: rgba(black, 0.87),
+    A700: rgba(black, 0.87),
+  )
+);

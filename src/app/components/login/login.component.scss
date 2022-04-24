@@ -1,7 +1,39 @@
+
 .mat-card {
     margin: 0 auto;
-    width: 50%;
+    margin-top: 40px;
+    padding: 0;
+    width: 25%;
     display:flex;
-    flex-flow: column;
-    align-items: center;
+    flex-flow: column nowrap;
+    text-align: center;
+    mat-toolbar {
+        font-size: 30px;
+        padding: 10px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 15px 0;
+        mat-form-field {
+            margin: 0 auto;
+            width: 70%;
+            input {
+                font-size: 18px;
+                width: 100%;
+            }
+        }
+    }
+    div {
+        display:flex;
+        justify-content: space-around;
+        flex-flow: wrap;
+        margin: 10px;
+        .fb {
+            background-color: #358EF1;
+            color: white;
+            border-radius: 10px;
+        }
+    }
 }
