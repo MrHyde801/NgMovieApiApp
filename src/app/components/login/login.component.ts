@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {FormControl, FormBuilder, FormGroup} from '@angular/forms';
 import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import { AngularFireAuth } from '@angular/fire/compat/auth';
+import { AuthService } from 'src/app/services/auth.service';
 
 
 @Component({
@@ -22,7 +22,7 @@ export class LoginComponent implements OnInit {
 
   constructor(
     private fb: FormBuilder,
-    public auth: AngularFireAuth
+    public authService: AuthService,
     ) { 
 
   }

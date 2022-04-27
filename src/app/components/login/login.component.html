@@ -3,19 +3,16 @@
           <mat-toolbar color="accent">Login Page</mat-toolbar>
           <form [formGroup]="loginForm">
                 <mat-form-field>
-                  <input matInput type="text" placeholder="Enter Email" formControlName="email">
+                  <input matInput type="email" placeholder="Enter Email" formControlName="email" #userEmail required>
                 </mat-form-field>
 
                 <mat-form-field>
-                  <input matInput type="text" placeholder="Enter Password" formControlName="password">
+                  <input matInput type="password" placeholder="Enter Password" formControlName="password" #userPassword required>
                 </mat-form-field>
           </form>
           <button mat-raised-button color="accent" (click)="reset()">Login</button>
-          <button mat-raised-button color="primary" (click)="createUser()">Sign Up! NOW!</button>
           <div>
-            <button mat-raised-button class="fb">Continue with Facebook
-              
-            </button>
+            <button mat-raised-button class="fb">Continue with Facebook</button>
             <button mat-raised-button class="google">Continue with Google</button>
             
           </div>

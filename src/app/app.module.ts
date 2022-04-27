@@ -24,6 +24,7 @@ import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { MovieDetailsComponent } from './components/movie-details/movie-details.component';
 import { DetailsControllerComponent } from './components/details-controller/details-controller.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
+import { AuthService } from './services/auth.service';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,7 @@ import { SignUpComponent } from './components/sign-up/sign-up.component';
     MatCardModule,
     MatButtonModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

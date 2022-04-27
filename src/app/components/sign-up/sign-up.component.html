@@ -1,1 +1,25 @@
-<p>sign-up works!</p>
+
+        <mat-card>
+            <mat-toolbar color="primary">Sign Up</mat-toolbar>
+            <form [formGroup]="signUpForm">
+                  <mat-form-field>
+                    <input matInput type="email" placeholder="Enter Email" formControlName="email" #userEmail required>
+                  </mat-form-field>
+  
+                  <mat-form-field>
+                    <input matInput type="password" placeholder="Enter Password" formControlName="password" #userPassword required>
+                  </mat-form-field>
+            </form>
+            <button mat-raised-button color="primary" (click)="authService.SignUp(userEmail.value, userPassword.value)">Submit</button>
+            <div>
+              <button mat-raised-button class="fb">Continue with Facebook
+                
+              </button>
+              <button mat-raised-button class="google">Continue with Google</button>
+              
+            </div>
+          </mat-card>
+          <div>
+            <i class="fa-brands fa-google"></i>
+          </div>
+  
